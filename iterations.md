@@ -273,7 +273,7 @@ nsduh_import = function(html, table_number, outcome_name){
   
 }
 
-nsduh_import(html = nsduh_html, table_number = 1, outcome_name = "marj")
+nsduh_import(html = nsduh_html, table_number = 1,outcome_name = "marj")
 ```
 
     ## # A tibble: 510 × 5
@@ -292,7 +292,7 @@ nsduh_import(html = nsduh_html, table_number = 1, outcome_name = "marj")
     ## # ℹ 500 more rows
 
 ``` r
-nsduh_import(html = nsduh_html, table_number = 4, outcome_name = "cocaine")
+nsduh_import(html = nsduh_html, table_number = 4,outcome_name = "cocaine")
 ```
 
     ## # A tibble: 510 × 5
